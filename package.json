@@ -1,0 +1,19 @@
+{
+  "name": "vue-datalake",
+  "version": "1.0.0",
+  "description": "Make use of vue to visualise nus datalake.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "papaparse": "4.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/papaparse": "4.5.5",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

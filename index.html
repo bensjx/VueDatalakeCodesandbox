@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h3>Pie chart for personal_data gender</h3>
+      <button @click="getData('pd_gender')">Generate chart</button>
+      <pie-chart :data="pd_gender_data"></pie-chart>
+
+      <hr />
+
+      <h3>Pie chart for module_enrolment final grades</h3>
+      <button @click="getData('module_final')">Generate chart</button>
+      <pie-chart :data="module_final_data"></pie-chart>
+
+      <hr />
+
+      <h3>Bar chart for personal_data country of citizency</h3>
+      <button @click="getData('pd_ctry')">Generate chart</button>
+      <bar-chart :data="pd_ctry_data" height="1000px"></bar-chart>
+      <!-- Adjusted the height as there was a lot of data -->
+
+      <hr />
+      <!-- Include more charts over here -->
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/chart.js@2.7.2/dist/Chart.bundle.js"></script>
+    <script src="https://unpkg.com/vue-chartkick@0.4.0"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>

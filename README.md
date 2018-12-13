@@ -1,2 +1,0 @@
-# VueDatalakeCodesandbox
-Created with CodeSandbox
