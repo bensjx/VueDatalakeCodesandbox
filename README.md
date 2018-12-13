@@ -1,6 +1,6 @@
 # VueDatalakeCodesandbox
 
-## THIS VERSION DOES NOT WORK IN GITHUB HOSTED PAGES OR YOUR LOCAL SYSTEM. For the working version, refer to https://github.com/bensjx/VueNusDatalake
+### THIS VERSION DOES NOT WORK IN GITHUB HOSTED PAGES OR YOUR LOCAL SYSTEM. For the github/local system version, refer to https://github.com/bensjx/VueNusDatalake
 
 ## About
 This repo make use of Vue to visualize the NUS Datalake synthetic data. We pull data directly from the spreadsheet tabs as csv data and display them in graph and charts.
