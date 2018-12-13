@@ -8,12 +8,12 @@ This repo make use of Vue to visualize the NUS Datalake synthetic data. We pull 
 ## Demo
 https://codesandbox.io/s/github/bensjx/VueDatalakeCodesandbox/tree/master/
 
-## Packages
+## Libraries
 1. Papaparse: Load csv data from google sheets and transform them into an object to be processed in Vue.
 https://www.papaparse.com/.
 Since we are using codesandbox, click on "Add Dependency" at the left hand column and search for papaparse.
 After adding, rememebr to import it (first line of index.js).
-2. Vue Chartkicks: Used to visualise our data. This is a very simple way to display charts (in just 1 line). If you want to display more complicated charts you might want to consider other packages.
+2. Vue Chartkicks: Used to visualise our data. This is a very simple way to display charts (in just 1 line). If you want to display more complicated charts you might want to consider other Libraries.
 https://chartkick.com/vue
 
 ## CORS error
